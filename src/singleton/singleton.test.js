@@ -1,7 +1,7 @@
 var {Singleton}  = require('./singleton')
 var expect = require('chai').expect
 
-describe('Single test', () => {
+describe('Singleton pattern test', () => {
 	it('should be equal', (done) => {
 		var s01 = Singleton.getInstance()
 		var s02 = Singleton.getInstance()
