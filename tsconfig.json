@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "CommonJS",
+        "target": "ES6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "watch": false,
+        "declaration": false,
+        "sourceMap": false
+    }
+}
