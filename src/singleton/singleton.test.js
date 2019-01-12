@@ -1,4 +1,4 @@
-var {Singleton}  = require('./singleton')
+var {Singleton}  = require('./Singleton')
 var expect = require('chai').expect
 
 describe('Singleton pattern test', () => {
