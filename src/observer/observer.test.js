@@ -6,14 +6,12 @@ describe('Observer pattern test', () => {
 	it('should run update and equal', () => {
 		let con = {}
 		class Ob01 extends Observer {
-			contructor() {}
 			update(con) {
 				expect(con).to.equal(con)
 			}
 		}
 
 		class Ob02 extends Observer {
-			contructor() {}
 			update(con) {
 				expect(con).to.equal(con)
 			}

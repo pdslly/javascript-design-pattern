@@ -2,7 +2,6 @@ import Observer from './Observer'
 
 export default class ObserverList {
 	observerList: Observer[] = []
-	constructor() {}
 	add(observer: Observer): void {
 		this.observerList.push(observer)
 	}
